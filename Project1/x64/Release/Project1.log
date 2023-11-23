@@ -1,0 +1,9 @@
+﻿  source.cpp
+X:\ALLproject\Project1\Project1\source.cpp(14,49): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+X:\ALLproject\Project1\Project1\source.cpp(16,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“__int64”
+X:\ALLproject\Project1\Project1\source.cpp(16,10): message : 请考虑在格式字符串中使用“%lld”
+X:\ALLproject\Project1\Project1\source.cpp(16,10): message : 请考虑在格式字符串中使用“%Id”
+X:\ALLproject\Project1\Project1\source.cpp(16,10): message : 请考虑在格式字符串中使用“%I64d”
+X:\ALLproject\Project1\Project1\source.cpp(23,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+source.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@@Z)
+X:\ALLproject\Project1\x64\Release\Project1.exe : fatal error LNK1120: 1 个无法解析的外部命令
